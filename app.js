@@ -36,7 +36,6 @@ app.post("/", function (req, res) {
 
   const MC_API_Key = process.env.API_KEY
 
-  // const MLIST_ID = process.env.LIST_ID
 
 
   const options = {
@@ -69,8 +68,3 @@ app.listen(process.env.PORT || 3000, function () {
   console.log("Server is running on Port 3000");
 });
 
-// API KEY
-// 9ee76d117b9749d4d19cf3692ca83e9e-us9
-
-//audience id
-// 0814f061ef
