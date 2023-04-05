@@ -38,7 +38,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "haley1:9ee76d117b9749d4d19cf3692ca83e9e-us9"
+    auth: "haley1:" + MC_API_Key,
   };
 
   const request = https.request(url, options, function (response) {
