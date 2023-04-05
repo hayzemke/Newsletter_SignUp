@@ -1,5 +1,3 @@
-
-
 const express = require("express");
 const bodyParset = require("body-parser");
 const bodyParser = require("body-parser");
