@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "env-cmd node --watch index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Haley Z",
   "license": "ISC",
