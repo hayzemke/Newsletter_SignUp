@@ -1,3 +1,5 @@
+
+
 const express = require("express");
 const bodyParset = require("body-parser");
 const bodyParser = require("body-parser");
@@ -33,9 +35,10 @@ app.post("/", function (req, res) {
 
   const url = "https://us9.api.mailchimp.com/3.0/lists/0814f061ef";
 
+
   const options = {
     method: "POST",
-    auth: "haley1:d99c3129113d2492215224fd1ac00de3-us9",
+    auth: "haley1:9ee76d117b9749d4d19cf3692ca83e9e-us9"
   };
 
   const request = https.request(url, options, function (response) {
@@ -51,7 +54,7 @@ app.post("/", function (req, res) {
     })
   });
 
-//   request.write(jsonData);
+request.write(jsonData);
   request.end();
 });
 
@@ -64,7 +67,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 // API KEY
-//
+// 9ee76d117b9749d4d19cf3692ca83e9e-us9
 
 //audience id
 // 0814f061ef
