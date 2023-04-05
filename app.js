@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParset = require("body-parser");
 const bodyParser = require("body-parser");
 const https = require("https");
+const dotnev = require('dotenv').config();
 
 const app = express();
 app.use(express.static("public"));
