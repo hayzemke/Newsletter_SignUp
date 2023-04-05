@@ -36,7 +36,7 @@ app.post("/", function (req, res) {
 
   const MC_API_Key = process.env.API_KEY
 
-  const MLIST_ID = process.env.LIST_ID
+  // const MLIST_ID = process.env.LIST_ID
 
 
   const options = {
